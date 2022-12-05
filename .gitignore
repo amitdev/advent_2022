@@ -1,0 +1,7 @@
+.gradle
+**/out/
+.idea
+build/
+*.iml
+*.swp
+/gradle/wrapper/
