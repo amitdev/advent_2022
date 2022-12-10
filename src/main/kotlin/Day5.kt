@@ -1,5 +1,3 @@
-import java.io.File
-
 fun solve(lines: Sequence<String>, part1: Boolean) =
   lines.fold(Input()) { acc, line -> acc.merge(acc.parse(line)) }
     .arrangeCrates()
